@@ -30,9 +30,15 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>Dashboard</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/tasks" class="nav-link">
+                                <i class="nav-icon fas fa-tasks"></i>
+                                <p>Tasks</p>
                             </a>
                         </li>
                     </ul>
@@ -50,9 +56,6 @@
         </div>
 
         <footer class="main-footer">
-            <div class="float-right d-none d-sm-block">
-                <b>Version</b> 3.2.0
-            </div>
             <strong>Copyright &copy; 2024 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
         </footer>
     </div>
